@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Jiwoo Web Profile</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/main.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<nav>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#study">Study</a></li>
+								<li><a href="#skil">Skils</a></li>
+								<li><a href="#TensorFlow">TensorFlow</a></li>
+								<li><a href="#GoogleMap">Google Map</a></li>
+								<li><a href="#kakaoMap">kakao Map</a></li>
+								<li><a href="#naverMap">naver Map</a></li>
+							</ul>
+						</nav>
+			
+						
+								<h1>Web Portfolio jiwoo</h1>
+						
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+
+					
+							<article id="study">
+								<h2 class="major">Study</h2>
+								<h3 class="major">python</h3>
+								<span class="image main"><img src="images/python.png" alt="" /></span>
+								<h3 class="major">java</h3>
+								<span class="image main"><img src="images/java.png" alt="" /></span>
+							</article>
+
+						
+							<article id="skil">
+								<h2 class="major">Skils</h2>
+								<span class="image main"><img src="images/pro.png" alt="" /></span>
+								<p>c / c++ / java / html / nodejs / python / 등 다양한 언어를 학습하고 공부중입니다.</p>
+							</article>
+
+
+					
+							<article id="TensorFlow">
+								<h2 class="major">TensorFlow</h2>
+
+								<section>
+									<iframe src="https://jiwookim7211.github.io/images/" width="750" height="700" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+								</section>
+
+
+								
+
+							</article>
+							<article id="GoogleMap">
+								<h2 class="major">GoogleMap</h2>
+
+								<section>
+								
+									<p>GoogleMap</p>
+									<iframe src="https://jiwookim7211.github.io/goo/" width="750" height="500" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+								<section>
+	
+								</section>
+
+
+								
+
+							</article>
+							<article id="kakaoMap">
+								<h2 class="major">kakaoMap</h2>
+
+								<section>
+								
+									<p>kakaoMap</p>
+									<body>
+										<!-- 지도를 표시할 div 입니다 -->
+										<div id="map" style="width:100%;height:350px;"></div>
+										
+										<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d02dcfc67797f4e8bbee3cbb2ab50881"></script>
+										<script>
+										var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+											mapOption = { 
+												center: new kakao.maps.LatLng(35.9460546, 126.6821658), // 지도의 중심좌표
+												level: 3 // 지도의 확대 레벨
+											};
+										
+										// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+										var map = new kakao.maps.Map(mapContainer, mapOption); 
+										var markerPosition = new kakao.maps.LatLng(35.9460546, 126.6821658);
+										var marker = new kakao.maps.Marker({
+											position: markerPosition
+										});
+										marker.setMap(map);
+										</script>
+										</body>
+								<section>
+	
+								</section>
+
+
+								
+
+							</article>
+							<article id="naverMap">
+								<h2 class="major">naverMap</h2>
+
+								<section>
+								
+									<p>naverMap</p>
+									<iframe src="https://jiwookim7211.github.io/naver/" width="750" height="500" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+								<section>
+	
+								</section>
+							
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+
+	</body>
+</html>
